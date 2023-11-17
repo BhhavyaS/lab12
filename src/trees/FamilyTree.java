@@ -168,7 +168,7 @@ public class FamilyTree
 		//?? For each name in childrenArray, create a new node and add that node to parentNode.
 		for(int i = 0; i<childrenArray.length;i++) {
 			TreeNode child = new TreeNode(childrenArray[i]);
-			parentNode.children.add(child);
+			parentNode.addChild(child);
 		}
 	}
 	
